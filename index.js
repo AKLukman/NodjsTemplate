@@ -32,7 +32,7 @@ connectToServer((err) => {
   }
 });
 
-// Base URL
+// Base URL tool route
 app.use("/api/v1/tools", toolRoute);
 
 app.get("/", (req, res) => {
